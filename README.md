@@ -1,7 +1,7 @@
 # Pewlett Hackard Analysis
 
 ## Overview
-Pewlett Hackard (PH) is a large well established company.  As baby boomers begin to retire, PH needs to plan for its future to make sure they have a seamless transition in employee roles and responsibilities.  PH wants to offer some retirement packages as well as ensure it has a pipeline to fill the vacant spots with well trained employees.  Bobby from HR has been tasked with analyzing information on its employees to determine who will be retirement eligible and make sure the company is setup for future success even with so many people retiring. 
+Pewlett Hackard (PH) is a large well established company.  As baby boomers begin to retire, PH needs to plan for its future to make sure they have a seamless transition in employee roles and responsibilities.  PH wants to offer some retirement packages as well as ensure it has a pipeline to fill the vacant spots with well trained employees.  Bobby from HR has been tasked with analyzing information using SQL on its employees to determine who will be retirement eligible and make sure the company is setup for future success even with so many people retiring. 
 
 Analysis was completed for the following items:
 1. Determine how many people were going to be retiring by title. 
@@ -29,8 +29,10 @@ The table below summarizes the potential mentors to show potential mentors by ti
   <img src = https://github.com/lauras521/Pewlett_Hackard_Analysis/blob/5147973dfad89cf1797e86179c06f75e80c46c4f/Data/mentoring_titles_screenshot.PNG>
 </p>
 
+* There are 1,549 eligible mentors. 
 * Senior Engineers and Senior Staff have the highest number of mentors.
 * There are no management eligible mentors.  
+* 
 
 ## Summary
 
