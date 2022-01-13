@@ -1,14 +1,22 @@
 # Pewlett Hackard Analysis
 
 ## Overview
+### Purpose
 Pewlett Hackard (PH) is a large well established company.  As baby boomers begin to retire, PH needs to plan for its future to make sure they have a seamless transition in employee roles and responsibilities.  PH wants to offer some retirement packages as well as ensure it has a pipeline to fill the vacant spots with well trained employees.  Bobby from HR has been tasked with analyzing information using SQL on its employees to determine who will be retirement eligible and make sure the company is setup for future success even with so many people retiring. 
 
 Analysis was completed for the following items:
 1. Determine how many people were going to be retiring by title. 
-2. Determine which employees could serve as mentors to ensure the future generation of PH employees are well trained 
+2. Determine which employees could serve as mentors to ensure the future generation of PH employees are well trained. 
 
-## Results
+## Analysis and Results
+### Analysis
+Multiple different csv files were provided for this analysis.  Through merging tables and SQL queries Bobby was able to meet the goals outlined ahead.  He initially created this schema to be able to see relationships between the tables to be able to understand how the tables will need to be joined and filtered for this analysis.  
 
+<p align="center">
+  <img src = https://github.com/lauras521/Pewlett_Hackard_Analysis/blob/e261ba8b3186d95dd38cb790ac9359a360dc55df/EmployeeDB.png>
+</p>
+
+### Results
 The table below shows how many people will be retiring by title.  
 <p align="center">
   <img src = https://github.com/lauras521/Pewlett_Hackard_Analysis/blob/5147973dfad89cf1797e86179c06f75e80c46c4f/Data/retiring_titles_screenshot.PNG>
@@ -23,7 +31,7 @@ The table below shows the beginning of the list of people who are potential ment
   <img src = https://github.com/lauras521/Pewlett_Hackard_Analysis/blob/5147973dfad89cf1797e86179c06f75e80c46c4f/Data/mentorship_eligibility_screenshot.PNG>
 </p>
 
-The table below summarizes the potential mentors to show potential mentors by title.
+The table below summarizes potential mentors by title.
 
 <p align="center">
   <img src = https://github.com/lauras521/Pewlett_Hackard_Analysis/blob/5147973dfad89cf1797e86179c06f75e80c46c4f/Data/mentoring_titles_screenshot.PNG>
@@ -32,18 +40,18 @@ The table below summarizes the potential mentors to show potential mentors by ti
 * There are 1,549 eligible mentors. 
 * Senior Engineers and Senior Staff have the highest number of mentors.
 * There are no management eligible mentors.  
-* 
 
 ## Summary
 
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-* Overall there are 72,458 retiring employees so 72,458 roles will need to be filled
+     * Overall there are 72,458 retiring employees so 72,458 roles will need to be filled
 
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+     * There are 1,549 eligible mentors. 
+     * There are no manager mentors to train the 2 retiring managers.  
+     * There are not many senior engineer mentors (169) for the number of senior managers retiring (25,916).
 
 
 The 2 additional queries I created and ran to help with additional analysis are the following:
@@ -65,6 +73,8 @@ The results were as follows:
 </p>
 
 3. determine the Percentage of Employees by Title Retiring to see how many people from a title will be leaving:
+
+     * Senior Engineer, Technique Leader, and Senior Staff all have ~25% of the total department retiring.  
 
 The query was as follows:
 
@@ -98,3 +108,4 @@ The results were as follows:
 <p align="center">
   <img src = https://github.com/lauras521/Pewlett_Hackard_Analysis/blob/5147973dfad89cf1797e86179c06f75e80c46c4f/Data/percent_titles_retiring_screenshot.PNG>
 </p>
+
